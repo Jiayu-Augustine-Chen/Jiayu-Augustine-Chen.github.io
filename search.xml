@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>A</title>
-      <link href="/2024/09/26/A/"/>
-      <url>/2024/09/26/A/</url>
+      <title>Hello World</title>
+      <link href="/2024/09/25/hello-world/"/>
+      <url>/2024/09/25/hello-world/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       
@@ -17,13 +17,19 @@
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2024/09/25/hello-world/"/>
-      <url>/2024/09/25/hello-world/</url>
+      <title>在安詳的呼吸聲中</title>
+      <link href="/2023/02/25/%E5%9C%A8%E5%AE%89%E8%A9%B3%E7%9A%84%E5%91%BC%E5%90%B8%E8%81%B2%E4%B8%AD/"/>
+      <url>/2023/02/25/%E5%9C%A8%E5%AE%89%E8%A9%B3%E7%9A%84%E5%91%BC%E5%90%B8%E8%81%B2%E4%B8%AD/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>最近這段時間，都是在醫院的病床上度過的。也頻繁出入於護士站和醫生辦公室，與護士和醫生聊聊天，打發沈不下心的時間。在醫院的大部分時間，都是和隔壁床的老奶奶一起，聊天、玩遊戲、出門買粥和包子。她總說，我們兩個在一起住了這些天也算是緣分。只可惜，直到她今天帶著笑臉拖著沒有治好的身子出院準備回家繼續服侍她那中風脾氣且差的老公時說：「以後來我家玩！」，我們都沒有留下彼此的聯系方式。我會記得曾經一位老一輩的人和我說的那些話。</p><p>前幾天體會過了今年的至暗時刻，有那麽一刻，懷疑當下是否只是夢境，竟會如此痛苦。當丟掉健康的時候，會突然覺悟什麽都不重要了，唯有好好地活著。總是管不住自己的嘴，稍微好受點了，總想去嘗一嘗美味。這幾天算是對自己的試煉吧，至少對事物的克製。今天三餐都只是淡包子，總算是成功實現長達24h的舒適。</p><p>前一個人剛走，下一個人立馬就住進了病房。是一個年近九旬的老奶奶，和第一個依然能夠談笑風生的完全不同，她甚至沒有足夠的氣力支撐自己坐著。本來我是很害怕的，有這麽一位太奶奶年紀的病人就住在我旁邊的床上。我怕有意外發生，尤其是白天偶然聽到她說的一句，「要不就讓我死掉算了」，更是讓我後怕。晚上我也有些許困倦，回到房間，看到她安穩地睡著的樣子，突然覺得幾分鐘前我的這種想要逃跑回家睡覺的想法很卑劣。決定不回去了。</p><p>接受無常，是人生的一大課題吧。人的一生中一定會經歷、見證很多生命的雕謝。每每看到這種高齡且得了在這個年齡治不好的病的老人，總會唏噓。有的人是自己不想死，有的人是家人以為他們不想離開或者為了自己能對長輩做點什麽。一大批人的忙活與痛苦，其實並不會改變什麽，無非是延長所有人的痛苦時間。所以，如果她想要，何不成全她呢。</p><p>從寒假開始出現不適開始，我就尋找了各種方法來緩解。嘗試過了很多，用音樂、遊戲緩解焦慮，去醫院用藥物讓自己平靜下來。實在是自己和胃藥無法控製的時候，便開始合理懷疑是否是焦慮癥。確診後吃過兩種藥，第二種藥的副作用讓我來到了醫院。算是一次教訓，輕易不要吃精神藥物。也輕易不要進入杭七這樣的醫院，走在醫院裏，你就會覺得只有你有病才是正常的。了解過了焦慮癥，多是由於患者對死亡的恐懼，對自身感受的敏感，那確實是非常符合我了。但是現在，身邊的老人時不時發出的鼾聲，以及她偶爾會說點話。多多少少，是給了我更多的勇氣去面對，成長、衰老、死亡。盡管很害怕，我還是會佯裝樂觀，讓老奶奶感受到自己是可以健康地活下去的。要對她多笑笑啊。</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 隨筆 </tag>
+            
+        </tags>
       
     </entry>
     
