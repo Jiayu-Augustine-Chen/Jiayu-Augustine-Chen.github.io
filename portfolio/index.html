@@ -6,17 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-    <meta name="description" content="Augustine&#39;s Blog">
+    <meta name="description" content="作品1                作品2                作品3                作品4                作品5                作品6                作品7                作品8">
 <meta property="og:type" content="website">
 <meta property="og:title" content="portfolio">
 <meta property="og:url" content="https://jiayu-augustine-chen.github.io/portfolio/index.html">
 <meta property="og:site_name" content="Nothing Is Nothing">
-<meta property="og:description" content="Augustine&#39;s Blog">
+<meta property="og:description" content="作品1                作品2                作品3                作品4                作品5                作品6                作品7                作品8">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jiayu-augustine-chen.github.io/portfolio/%3C%=%20url_for(">
+<meta property="og:image" content="https://jiayu-augustine-chen.github.io/portfolio/%3C%=%20url_for(">
+<meta property="og:image" content="https://jiayu-augustine-chen.github.io/portfolio/%3C%=%20url_for(">
+<meta property="og:image" content="https://jiayu-augustine-chen.github.io/portfolio/%3C%=%20url_for(">
+<meta property="og:image" content="https://jiayu-augustine-chen.github.io/portfolio/%3C%=%20url_for(">
+<meta property="og:image" content="https://jiayu-augustine-chen.github.io/portfolio/%3C%=%20url_for(">
+<meta property="og:image" content="https://jiayu-augustine-chen.github.io/portfolio/%3C%=%20url_for(">
+<meta property="og:image" content="https://jiayu-augustine-chen.github.io/portfolio/%3C%=%20url_for(">
 <meta property="article:published_time" content="2024-09-26T13:00:07.000Z">
-<meta property="article:modified_time" content="2024-09-26T13:00:07.737Z">
+<meta property="article:modified_time" content="2024-10-08T10:16:35.670Z">
 <meta property="article:author" content="Jiayu Augustine Chen">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://jiayu-augustine-chen.github.io/portfolio/%3C%=%20url_for(">
     
     
       
@@ -47,6 +56,10 @@
     <!-- styles -->
     
 <link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- 添加 portfolio.styl 样式文件的引用 -->
+    <link rel="stylesheet" href="/css/portfolio.ejs">
 
     <!-- persian styles -->
     
@@ -102,7 +115,41 @@
 
   <div class="content" itemprop="articleBody">
       
-          
+          <div class="portfolio-container">
+  <div class="portfolio-item">
+    <img src="<%= url_for('images/portfolio/image1.jpg') %>" alt="作品1">
+    <div class="portfolio-title">作品1</div>
+  </div>
+  <div class="portfolio-item">
+    <img src="<%= url_for('images/portfolio/image2.jpg') %>" alt="作品2">
+    <div class="portfolio-title">作品2</div>
+  </div>
+  <div class="portfolio-item">
+    <img src="<%= url_for('images/portfolio/image2.jpg') %>" alt="作品3">
+    <div class="portfolio-title">作品3</div>
+  </div>
+  <div class="portfolio-item">
+    <img src="<%= url_for('images/portfolio/image2.jpg') %>" alt="作品4">
+    <div class="portfolio-title">作品4</div>
+  </div>
+  <div class="portfolio-item">
+    <img src="<%= url_for('images/portfolio/image2.jpg') %>" alt="作品5">
+    <div class="portfolio-title">作品5</div>
+  </div>
+  <div class="portfolio-item">
+    <img src="<%= url_for('images/portfolio/image2.jpg') %>" alt="作品6">
+    <div class="portfolio-title">作品6</div>
+  </div>
+  <div class="portfolio-item">
+    <img src="<%= url_for('images/portfolio/image2.jpg') %>" alt="作品7">
+    <div class="portfolio-title">作品7</div>
+  </div>
+  <div class="portfolio-item">
+    <img src="<%= url_for('images/portfolio/image2.jpg') %>" alt="作品8">
+    <div class="portfolio-title">作品8</div>
+  </div>
+</div>
+
         
   </div>
 </article>
