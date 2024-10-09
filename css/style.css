@@ -1677,6 +1677,8 @@ code {
   height: 90%;
   object-fit: cover;
 }
-.category-card h3 {
-  margin-top: 10px;
+.category-card .card-title {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
 }
