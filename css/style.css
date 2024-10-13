@@ -1684,7 +1684,7 @@ code {
 }
 .research-container {
   display: flex;
-  flex-wrap: wrap; /* 允许换行 */
+  flex-wrap: wrap;
   gap: 20px; /* 卡片间距 */
   padding: 20px; /* 容器内边距 */
 }
