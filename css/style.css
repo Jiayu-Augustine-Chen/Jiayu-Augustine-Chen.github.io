@@ -1684,32 +1684,19 @@ code {
 }
 .research-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-wrap: wrap; /* 允许换行 */
+  gap: 20px; /* 卡片间距 */
+  padding: 20px; /* 容器内边距 */
 }
 .research-card {
-  width: 80%;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
-}
-.research-card h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-.research-card p {
-  font-size: 16px;
-}
-.research-card a {
-  display: inline-block;
-  margin-top: 15px;
-  color: #007acc;
-  text-decoration: none;
-  font-weight: bold;
+  background-color: #f9f9f9; /* 卡片背景颜色 */
+  border: 1px solid #ccc; /* 边框样式 */
+  border-radius: 5px; /* 圆角 */
+  padding: 15px; /* 卡片内边距 */
+  width: calc(50% - 20px); /* 设置卡片宽度（两列） */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 阴影效果 */
+  transition: transform 0.3s; /* 动画效果 */
 }
 .research-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px); /* 悬停效果 */
 }
