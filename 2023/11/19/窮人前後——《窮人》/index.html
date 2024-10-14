@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="來香港前，我就決定，看完家裏的書，再也不買實體書了。搬家太麻煩了，體積也大，不便於携帶。今年多數書都是在微信讀書看的。回看今年的看書時長，頓感欣慰。從前我不愛看書的，只看一點點平常人也不愛看的書。總之看的不多。然而，微信讀書雖然方便，卻沒怎麽遇到過特別好的書。又之前一段時間在小紅書上，屢次刷到陀思妥耶夫斯基，覺得能讀完那些一定很酷。便對陀翁的書心生向往，在好幾次的“加入購物車-刪除-再加入”的操作">
 <meta property="og:type" content="article">
 <meta property="og:title" content="窮人前後——《窮人》">
@@ -161,7 +165,18 @@
 
     </div>
   </header>
+
+
   
+
+
+
+  <!-- Add Tocbot container here -->
+  <div class="toc"></div> <!-- This is where the table of contents will be rendered -->
+  <div class="post-content">
+  <!-- Your article content goes here -->
+  </div>
+
 
   <div class="content e-content" itemprop="articleBody">
     <p>來香港前，我就決定，看完家裏的書，再也不買實體書了。搬家太麻煩了，體積也大，不便於携帶。今年多數書都是在微信讀書看的。回看今年的看書時長，頓感欣慰。從前我不愛看書的，只看一點點平常人也不愛看的書。總之看的不多。然而，微信讀書雖然方便，卻沒怎麽遇到過特別好的書。又之前一段時間在小紅書上，屢次刷到陀思妥耶夫斯基，覺得能讀完那些一定很酷。便對陀翁的書心生向往，在好幾次的“加入購物車-刪除-再加入”的操作后，我終於下手了。</p>
@@ -182,6 +197,8 @@
 
   </div>
 </article>
+
+
 
 
 
@@ -312,15 +329,42 @@
   </script>
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 

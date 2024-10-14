@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="小時候寫日記、寫詩，總是會說如果 現在依然在想著各種“如果”和“應該” 我曾經幻想過這樣的未來 這是多年前的我無法接受的 但確確實實是曾經我篤定的未來 有人改變了我又離去 剩下旁邊是空位的通往未來的車和我 我選擇了下車，回到很久很久以前，只有單人位的車上 可是，我開始迷茫了；我想， 如果沒有離開；我想， 應該回到雙人位的車上 雖然不知道各自會做什麽事情，但可以明確的一點是： 我們一定會在一個城市">
 <meta property="og:type" content="article">
 <meta property="og:title" content="白日夢女">
@@ -160,7 +164,18 @@
 
     </div>
   </header>
+
+
   
+
+
+
+  <!-- Add Tocbot container here -->
+  <div class="toc"></div> <!-- This is where the table of contents will be rendered -->
+  <div class="post-content">
+  <!-- Your article content goes here -->
+  </div>
+
 
   <div class="content e-content" itemprop="articleBody">
     <p>小時候寫日記、寫詩，總是會說如果</p>
@@ -209,6 +224,8 @@
 
   </div>
 </article>
+
+
 
 
 
@@ -339,15 +356,42 @@
   </script>
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 

@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="這裏完全模仿了他們先前的一切程序，一切都沒有變。 這是另一個世界。 這裏的繁華，一點也不亞於他們所創造的。熟悉的味道，熟悉的光彩，熟悉的溫度，會場一如既往的躁動。我坐在那裏，等待今天即將要被拍賣的神秘嘉賓。一瞬間，我聽不到任何聲音。 「我的主人！這是真的嗎？」我忍不住站了起來。「是的，先生喝點什麽嗎？」，服務員正好經過。「不了，謝謝。」，我緩緩坐下，聽到尖銳的刺耳的關節彎曲的聲音。主人被安放在展示">
 <meta property="og:type" content="article">
 <meta property="og:title" content="夢">
@@ -160,7 +164,18 @@
 
     </div>
   </header>
+
+
   
+
+
+
+  <!-- Add Tocbot container here -->
+  <div class="toc"></div> <!-- This is where the table of contents will be rendered -->
+  <div class="post-content">
+  <!-- Your article content goes here -->
+  </div>
+
 
   <div class="content e-content" itemprop="articleBody">
     <p>這裏完全模仿了他們先前的一切程序，一切都沒有變。</p>
@@ -176,6 +191,8 @@
 
   </div>
 </article>
+
+
 
 
 
@@ -306,15 +323,42 @@
   </script>
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 

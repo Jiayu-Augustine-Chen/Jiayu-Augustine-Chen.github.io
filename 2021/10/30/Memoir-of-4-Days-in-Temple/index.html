@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="The day before the National Day this year, I set out for a temple 150km far away from my college. This schedule has been in my mind from summer holiday, and actually I made this decision in a minute,">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Memoir of 4 Days in Temple">
@@ -161,7 +165,18 @@
 
     </div>
   </header>
+
+
   
+
+
+
+  <!-- Add Tocbot container here -->
+  <div class="toc"></div> <!-- This is where the table of contents will be rendered -->
+  <div class="post-content">
+  <!-- Your article content goes here -->
+  </div>
+
 
   <div class="content e-content" itemprop="articleBody">
     <p>The day before the National Day this year, I set out for a temple 150km far away from my college. This schedule has been in my mind from summer holiday, and actually I made this decision in a minute, just because a word echoing, “you have to go if you want”.</p>
@@ -176,6 +191,8 @@
 
   </div>
 </article>
+
+
 
 
 
@@ -306,15 +323,42 @@
   </script>
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 

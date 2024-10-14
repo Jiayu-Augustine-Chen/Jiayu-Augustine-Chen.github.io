@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="上次我寫了何謂建築，它是和哲學一樣的學科，無處不在，人的生存就必須有建築的依托；人精神上的發展以及社會性的生存更是離不開建築和哲學。 這次就住宅來講點我的想法吧。其實還是要從現在的社會現實說起，我們這一代人面對的生存壓力讓我們不得不在將來的買房上啃老。拿父母一輩子的積蓄來付個首付，怎麽想都是一件及其不劃算的事情。住房的價格因為區域經濟，地域環境而不同，我覺得這無可厚非，但要是漲到了超過工資水平的程">
 <meta property="og:type" content="article">
 <meta property="og:title" content="關於單體建築和住宅">
@@ -160,7 +164,18 @@
 
     </div>
   </header>
+
+
   
+
+
+
+  <!-- Add Tocbot container here -->
+  <div class="toc"></div> <!-- This is where the table of contents will be rendered -->
+  <div class="post-content">
+  <!-- Your article content goes here -->
+  </div>
+
 
   <div class="content e-content" itemprop="articleBody">
     <p>上次我寫了何謂建築，它是和哲學一樣的學科，無處不在，人的生存就必須有建築的依托；人精神上的發展以及社會性的生存更是離不開建築和哲學。</p>
@@ -176,6 +191,8 @@
 
   </div>
 </article>
+
+
 
 
 
@@ -306,15 +323,42 @@
   </script>
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 

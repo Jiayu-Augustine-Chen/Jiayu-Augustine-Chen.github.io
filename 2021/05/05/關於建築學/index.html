@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="上周我說我就是想學哲學和建築，老師說，「那你就應該學建築。」其實，經過這段時間的學習，我覺得一味地怪學校沒教什麽東西是錯的，因為建築學一直就沒有教給學生應該學的東西。不止建築吧，大學本來就沒必要指望學校能教你什麽。 其實我是想說說關於建築的東西的。我可能和很多人不一樣，又有點和某些人一樣吧。很多人想要造房子，自己設計的，很多很多。但要遇到好看的，真的太少了。在我看來那些「紮裏紮氣」的還有賦名為現代">
 <meta property="og:type" content="article">
 <meta property="og:title" content="關於建築學">
@@ -160,7 +164,18 @@
 
     </div>
   </header>
+
+
   
+
+
+
+  <!-- Add Tocbot container here -->
+  <div class="toc"></div> <!-- This is where the table of contents will be rendered -->
+  <div class="post-content">
+  <!-- Your article content goes here -->
+  </div>
+
 
   <div class="content e-content" itemprop="articleBody">
     <p>上周我說我就是想學哲學和建築，老師說，「那你就應該學建築。」其實，經過這段時間的學習，我覺得一味地怪學校沒教什麽東西是錯的，因為建築學一直就沒有教給學生應該學的東西。不止建築吧，大學本來就沒必要指望學校能教你什麽。</p>
@@ -173,6 +188,8 @@
 
   </div>
 </article>
+
+
 
 
 
@@ -303,15 +320,42 @@
   </script>
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 

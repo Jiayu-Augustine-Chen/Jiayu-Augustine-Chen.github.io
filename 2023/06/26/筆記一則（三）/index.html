@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="人生不會一路綠燈 就像走在或是行駛在交通道路上，遇到綠燈還是紅燈取決於本身的速度變化，其他人的人流情況，信號燈設置的時間間隔，道路的長短等等。如果你今天沒有等過紅燈，那隻能說今天的你真的很幸運，一切都剛剛好。 小孩不分國籍的吵。 人活這麼幾十年其實是很無聊的，所以就有了學校，工作。每個階段規定好幹什麼，整個世界如同忙忙碌碌的螞蟻群到處移動。我們也不知道為什麼要這樣，但如果什麼都不做就真的太無聊了。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="筆記一則（三）">
@@ -160,7 +164,18 @@
 
     </div>
   </header>
+
+
   
+
+
+
+  <!-- Add Tocbot container here -->
+  <div class="toc"></div> <!-- This is where the table of contents will be rendered -->
+  <div class="post-content">
+  <!-- Your article content goes here -->
+  </div>
+
 
   <div class="content e-content" itemprop="articleBody">
     <p>人生不會一路綠燈 就像走在或是行駛在交通道路上，遇到綠燈還是紅燈取決於本身的速度變化，其他人的人流情況，信號燈設置的時間間隔，道路的長短等等。如果你今天沒有等過紅燈，那隻能說今天的你真的很幸運，一切都剛剛好。</p>
@@ -174,6 +189,8 @@
 
   </div>
 </article>
+
+
 
 
 
@@ -304,15 +321,42 @@
   </script>
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 

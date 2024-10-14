@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="我發現 大多數人其實只是活在了現在，即自己的這一世 他們關心今天 擔憂明天 懷念或是痛恨昨天 但未來還是在他們的這一世範圍裏面的 其實這樣的人很幸福 如果只在意今天的那種及時行樂的踐行者應該更幸福吧 可我想要瞭解更多過去的 最好是能把我出生以前的一切都知道一遍 我知道的真的太少了 我好笨 我喜歡哲學，但是我確實一點也不懂哲學。但我還是很想學習這方面的知識，或者是將建築和哲學理論結合起來的研究。最近">
 <meta property="og:type" content="article">
 <meta property="og:title" content="筆記一則（五）">
@@ -160,7 +164,18 @@
 
     </div>
   </header>
+
+
   
+
+
+
+  <!-- Add Tocbot container here -->
+  <div class="toc"></div> <!-- This is where the table of contents will be rendered -->
+  <div class="post-content">
+  <!-- Your article content goes here -->
+  </div>
+
 
   <div class="content e-content" itemprop="articleBody">
     <p>我發現 大多數人其實只是活在了現在，即自己的這一世 他們關心今天 擔憂明天 懷念或是痛恨昨天 但未來還是在他們的這一世範圍裏面的 其實這樣的人很幸福 如果只在意今天的那種及時行樂的踐行者應該更幸福吧 可我想要瞭解更多過去的 最好是能把我出生以前的一切都知道一遍 我知道的真的太少了 我好笨</p>
@@ -172,6 +187,8 @@
 
   </div>
 </article>
+
+
 
 
 
@@ -302,15 +319,42 @@
   </script>
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 

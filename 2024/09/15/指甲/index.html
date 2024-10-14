@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="指腹摩擦著頁角，將原本緊緊相貼的紙張分離，彎曲它、抬起它、徹底撕裂它。手指間的用力會使它窒息，指甲會刺傷它，它也許正在哭泣。倘若此時指尖沾有普洱茶的汁水，它會被滲透。氣味會留下，紋理會改變，下次再次翻開，只消看一眼，便知道它過去的命運。指甲在生長，一個月前塗上去的顏色沒有任何淡去的跡象。是出於對物的憐憫嗎？總之，過去的多餘的指甲連同拿上了色的塗層，隨著生長，被剪去。它本該是被磨平的，但現在最緊急的">
 <meta property="og:type" content="article">
 <meta property="og:title" content="指甲">
@@ -154,7 +158,18 @@
 
     </div>
   </header>
+
+
   
+
+
+
+  <!-- Add Tocbot container here -->
+  <div class="toc"></div> <!-- This is where the table of contents will be rendered -->
+  <div class="post-content">
+  <!-- Your article content goes here -->
+  </div>
+
 
   <div class="content e-content" itemprop="articleBody">
     <p>指腹摩擦著頁角，將原本緊緊相貼的紙張分離，彎曲它、抬起它、徹底撕裂它。手指間的用力會使它窒息，指甲會刺傷它，它也許正在哭泣。倘若此時指尖沾有普洱茶的汁水，它會被滲透。氣味會留下，紋理會改變，下次再次翻開，只消看一眼，便知道它過去的命運。指甲在生長，一個月前塗上去的顏色沒有任何淡去的跡象。是出於對物的憐憫嗎？總之，過去的多餘的指甲連同拿上了色的塗層，隨著生長，被剪去。它本該是被磨平的，但現在最緊急的當然是保護那些會被它傷害的生命。貓如果沒有指甲，就不能往上爬。如果它的彈跳能力不足夠，它就永遠都上不去那顆樹，看不到那顆有毒的果子。當然，它也不會因為天空飛過的什麼東西而受到驚嚇，從而摔下。它是飛下來還是摔下來，這依然是無可探究的。但它們的指甲還是得被剪，剪得很短，它們是不可以傷害人類的，因為人類給它們吃的，給了它們家，但也剝奪了大自然和那些盛產果實的樹。新的指甲長出來，像垂直下落的簾子，像徑直的跑道，像被刀劃過的蛋糕表面，像鑽石的某個表面但又有轉角。有顏色的指甲不曾剝落，它看上去不如它實際上這麼頑強有黏性。快要掉下來了，其中包了一些發光的顆粒，好像它們是有重量的。到處都是忽悠人的聲音，他們不過是拿了有磁性的東西在旁邊擺動，說著能夠更美麗。而事實上，醜陋無比，新生的指甲馬上就會取代它們。新的總是渴望舊的能趕快消失，共存的時候是最不美觀的。可是那新的在舊的到來之前就存在了，與血肉直接接觸。指甲會沾染各種污濁的東西。那是髒汙納垢的角落，如果不常用尖刺清理，就會有塵土、食物、各種食物。指甲是保護殼，是醜陋和美麗的並存，它與手指是一體的。</p>
@@ -162,6 +177,8 @@
 
   </div>
 </article>
+
+
 
 
 
@@ -292,15 +309,42 @@
   </script>
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 

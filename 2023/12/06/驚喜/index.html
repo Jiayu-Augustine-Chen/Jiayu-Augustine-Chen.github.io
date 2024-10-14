@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="“我們什麽時候可以見面啊？”深夜，她躺在床上和他打電話抱怨。這是異地情侶常有的話題，對了，他們還不是情侶。 “暑假等我，我一定來。”他説得很堅定，其實她明白，就算沒有她，他暑假也一定會來到她的城市。所以，聽到這個，并不會讓她很安心。首先，暑假太遠了，距離那時候還有超過半年的時間；其次，他本就熱愛旅游，這句“一定來”不是爲了她說的。她放下手機，側躺著，看著枕頭邊發光的屏幕，感到無比的委屈。 “那我們">
 <meta property="og:type" content="article">
 <meta property="og:title" content="驚喜">
@@ -160,7 +164,18 @@
 
     </div>
   </header>
+
+
   
+
+
+
+  <!-- Add Tocbot container here -->
+  <div class="toc"></div> <!-- This is where the table of contents will be rendered -->
+  <div class="post-content">
+  <!-- Your article content goes here -->
+  </div>
+
 
   <div class="content e-content" itemprop="articleBody">
     <p>“我們什麽時候可以見面啊？”深夜，她躺在床上和他打電話抱怨。這是異地情侶常有的話題，對了，他們還不是情侶。</p>
@@ -186,6 +201,8 @@
 
   </div>
 </article>
+
+
 
 
 
@@ -316,15 +333,42 @@
   </script>
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 

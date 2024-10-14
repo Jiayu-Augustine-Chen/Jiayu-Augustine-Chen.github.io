@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="敬啓垂閱…這是鄙人第一次嘗試用編程搭建個人網站，做到這裏，依然不太明白自己在做什麽東西。對於一個完全不懂編程的人來説，這無疑是一項艱巨的任務。起初，鄙人只是想有一個地方發表自己的文章，可惜回過頭去看過去寫過的東西，局限的話題、局限的小情小愛，抑缺乏文筆與想象力。偶爾質疑自己，真的如年少時那樣自以爲的和普通人不一樣嗎。 很慙愧，鄙人做什麽事情都帶有一定的目的和功利性。鄙人寫日記是爲了在將來死去后留給">
 <meta property="og:type" content="website">
 <meta property="og:title" content="about">
@@ -115,7 +119,7 @@
 <h3><span id="聯係">聯係</span></h3><ul>
 <li>您可以在<a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jiayu-chen-1756b62a5">領英</a>瞭解一些表面的東西。</li>
 <li>或是在<a href="https://jiayu-augustine-chen.github.io/">這裏</a>看一些真誠但愚蠢的言論。</li>
-<li>當然，也可以發郵件:<a href="mailto:&#97;&#117;&#103;&#117;&#x73;&#x74;&#x69;&#x6e;&#x65;&#x63;&#104;&#x65;&#x6e;&#x32;&#x36;&#x39;&#x39;&#x33;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#97;&#117;&#103;&#117;&#x73;&#x74;&#x69;&#x6e;&#x65;&#x63;&#104;&#x65;&#x6e;&#x32;&#x36;&#x39;&#x39;&#x33;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a>，鄙人很喜歡用郵件。</li>
+<li>當然，也可以發郵件:<a href="mailto:&#x61;&#117;&#x67;&#x75;&#115;&#116;&#105;&#x6e;&#101;&#x63;&#x68;&#101;&#110;&#50;&#x36;&#57;&#57;&#51;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x61;&#117;&#x67;&#x75;&#115;&#116;&#105;&#x6e;&#101;&#x63;&#x68;&#101;&#110;&#50;&#x36;&#57;&#57;&#51;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a>，鄙人很喜歡用郵件。</li>
 </ul>
 <h2><span id="鳴謝">鳴謝</span></h2><ul>
 <li>網站框架：<a href="H">Hexo</a></li>
@@ -177,15 +181,42 @@
 <!-- clipboard -->
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 

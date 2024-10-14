@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="本人對於「氣候變化」並沒有專業的了解，僅有幾點個人層面的認知。 在我看來，氣候變化固然在地球氣候變化周期裏面，屬於正常現象，但目前的波動幅度卻是不正常的。我所了解的「氣候變化」更多指的是「極端氣候」的發生及其頻率。從今年的高溫和這幾天的急劇降溫，我開始思考並擔憂著，既然今年有熱死的人那會不會也有冷死的人呢？因此，我急於想要加入某些組織，或者讓自己成長為能夠改變這些現象的人。 極端氣候的發生根源來自">
 <meta property="og:type" content="article">
 <meta property="og:title" content="關於氣候">
@@ -160,7 +164,18 @@
 
     </div>
   </header>
+
+
   
+
+
+
+  <!-- Add Tocbot container here -->
+  <div class="toc"></div> <!-- This is where the table of contents will be rendered -->
+  <div class="post-content">
+  <!-- Your article content goes here -->
+  </div>
+
 
   <div class="content e-content" itemprop="articleBody">
     <p>本人對於「氣候變化」並沒有專業的了解，僅有幾點個人層面的認知。</p>
@@ -180,6 +195,8 @@
 
   </div>
 </article>
+
+
 
 
 
@@ -310,15 +327,42 @@
   </script>
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 

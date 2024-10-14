@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.css">
+
     <meta name="description" content="他會有自己的世界和自己獨特的熱愛 那必定是一個擁有自由意志的完人 他可以癡迷那些我無法理解的事物 如果他是他 我們會牽手走在日落大道、在海岸綫 在每一個微風吹過的傍晚 我們會歡迎對方回家 會在一起看相同的或不同的書 會在一起看電影、喝紅酒 或是那些他喜歡做的事情 我們要學會所有的雙人舞 在路燈下、月光下、昏暗的房間裏 他會陪我去看每一場我愛聼的音樂會 我會看他愛看的每一本晦澀的書籍 如果他是他 當">
 <meta property="og:type" content="article">
 <meta property="og:title" content="彼と、一緒にしたいこと">
@@ -160,7 +164,18 @@
 
     </div>
   </header>
+
+
   
+
+
+
+  <!-- Add Tocbot container here -->
+  <div class="toc"></div> <!-- This is where the table of contents will be rendered -->
+  <div class="post-content">
+  <!-- Your article content goes here -->
+  </div>
+
 
   <div class="content e-content" itemprop="articleBody">
     <p>他會有自己的世界和自己獨特的熱愛</p>
@@ -189,6 +204,8 @@
 
   </div>
 </article>
+
+
 
 
 
@@ -319,15 +336,42 @@
   </script>
 
 
+
+
 <script src="/js/main.js"></script>
+
+
+<!-- Tocbot JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.13.0/tocbot.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Initialize Tocbot
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc', 
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.post-content', 
+      // Which headings to grab inside of the contentSelector.
+      headingSelector: 'h1, h2, h3, h4, h5',
+      // Smooth scroll enabled.
+      scrollSmooth: true
+    });
+  });
+
 
 <!-- search -->
 
+
+
 <!-- Baidu Analytics -->
+
+
 
 <!-- Cloudflare Analytics -->
 
 <!-- Disqus Comments -->
+
+
 
 <!-- utterances Comments -->
 
