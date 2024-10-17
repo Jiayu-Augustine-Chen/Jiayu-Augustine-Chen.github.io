@@ -584,41 +584,13 @@
   <entry>
     <title>about</title>
     <url>/about/index.html</url>
-    <content><![CDATA[<p>
-      <%= __('index.find_me_on') %>
-      <% var nb_links="theme.social_links.length" %>
-      <% var i="0" %>
-      <% for(var {label, icon, link} of theme.social_links) { %>
-        <% var title="label" || icon %>
-        <% if (icon="=" 'mail') { %>
-          <a class="icon u-email" target="_blank" rel="noopener" href="<%- link %>" aria-label="<%- title %>" title="<%- title %>">
-            <i class="fa-solid fa-envelope"></i><!--
-      ---></a>
-        <% } else if (icon="=" 'rss') { %>
-          <a class="icon" target="_blank" rel="noopener" href="<%- link %>" aria-label="<%- title %>" title="<%- title %>">
-            <i class="fa-solid fa-rss"></i>
-          </a>
-        <% } else { %>
-          <a class="icon u-url" target="_blank" rel="noopener me" href="<%- url_for(link) %>" aria-label="<%- title %>" title="<%- title %>">
-            <i class="fa-brands fa-<%= icon %>"></i><!--
-      ---></a><!--
-    ---><% } %><!--
-    ---><%= ( nb_links> 0 && i < nb_links-1 ?
-            ( i == nb_links-2 ? ' '+__('index.enum_and')+' '
-            : __('index.enum_comma')+' ' )
-            : '.' ) %>
-        <% i+="1" %>
-      <% } %>
-    </%></%></%=></%></%></%></%></%></%></%></%></%=></p>
-
-<h2><span id="敬啓垂閱">敬啓垂閱…</span></h2><p>鄙人建立這個網站的初心是<br>很慙愧，鄙人做什麽事情都帶有一定的目的和功利性。鄙人寫日記是爲了在將來死去后留給未來的人閲讀關於我的生平；在社交網站上發佈影片或是圖片是爲了給自己多一些盈利的可能性，儘管我做的還是一團糟。個人網站也是爲了讓別人能夠快速瞭解鄙人的全部。當然，鄙人在日記、在社交媒體、在這裏都不會撒謊。</p>
-<p>除了文章頁面，此網頁都將使用英文。但在這一頁。鄙人想用中文，希望您閲讀愉快。</p>
-<h2><span id="關於鄙人">關於鄙人</span></h2><p>一名愚蠢且遲鈍的人類。</p>
-<h2><span id="鳴謝">鳴謝</span></h2><ul>
-<li>網站框架：Hexo</li>
-<li>網站托管：Github</li>
-<li>講解代碼含義的Elaine、幫助搭建的<a href="https://baozongwi.xyz/">平安小弟</a>、時常嘮嗑的<a href="https://lingkang.dev/">小朱同學</a></li>
-</ul>
+    <content><![CDATA[<h2><span id="敬啓垂閱">敬啓垂閱…</span></h2><p>鄙人創建此網站之初心，乃欲有一處所，能存吾所撰自認不惡之文，亦欲為吾所繪之畫存檔之所。然吾之所望，尤在於此能助吾未來之學術與攻博。</p>
+<p>自幼吾信己與常人異，願終不泯然眾人矣。</p>
+<p>除文章外，此網站皆用英文。惟此頁，鄙人欲用中文，願君閱之愉快。</p>
+<p>未竟待續。</p>
+<h2><span id="關於鄙人">關於鄙人</span></h2><p><strong>性格特徵：</strong>建築師A、固執、自我<br><strong>興趣愛好：</strong>粵語歌、觀影、與人談話<br><strong>人生目標：</strong>創新思想、健康快樂、夢中辭世</p>
+<h2><span id="鳴謝">鳴謝</span></h2><h3><span id="我的朋友">我的朋友</span></h3><p>幫助搭建的<a href="https://baozongwi.xyz/">平安小弟</a><br>時常嘮嗑的<a href="https://lingkang.dev/">小朱同學</a></p>
+<h3><span id="網站搭建">網站搭建</span></h3><p>網站框架：Hexo<br>網站托管：GitHub<br>網站主題：<a href="https://probberechts.github.io/hexo-theme-cactus/cactus-white/public/">Cactus</a></p>
 <h2><span id="再見">再見</span></h2>]]></content>
   </entry>
   <entry>
